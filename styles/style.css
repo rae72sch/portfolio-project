@@ -38,7 +38,7 @@ h4 {
 h5 {
   font-family: var(--default-font-family);
   font-weight: medium;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 180px;
@@ -50,6 +50,16 @@ h6 {
   font-size: 16px;
   text-align: center;
   margin-top: 20px;
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  margin-top: 18px;
+  margin-bottom: 45px;
 }
 
 .hero {
@@ -81,3 +91,20 @@ h6 {
   padding: 0 100px;
 }
 
+.logo, .skill {
+  display: block;
+  margin: 0 auto;
+}
+
+.inquiry {
+  width: auto;
+  background: #F9F7FE; 
+  border-radius: 20px;
+  margin: 40px 140px;
+  padding-top: 50px;
+  padding-left: 120px;
+}
+
+.work-contact-btn {
+  margin-right: 120px;
+}
