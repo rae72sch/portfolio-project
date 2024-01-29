@@ -14,26 +14,48 @@ h1 {
   margin-bottom: 27px;
 }
 
-h2, h3 {
+h2, h3, h4 {
   font-family: var(--heading-font-family);
 }
 
 h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h3 {
   font-weight: 500;
   height: 36px;
 }
 
-h3 {
+h4 {
   color: #272142;
   font-weight: 400;
   font-size: 24;
   margin-bottom: 53px;
 }
 
+h5 {
+  font-family: var(--default-font-family);
+  font-weight: medium;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 180px;
+}
+
+h6 {
+  font-family: var(--default-font-family);
+  font-weight: 500px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 286px 20px;
 }
 
 .contact-button {
@@ -44,3 +66,18 @@ h3 {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+.container {
+  margin: 100px auto;
+}
+
+.header {
+  text-align: center;
+  font-family: var(--heading-font-family);
+  margin: 100px 0;
+}
+
+.gallery-image {
+  padding: 0 100px;
+}
+
