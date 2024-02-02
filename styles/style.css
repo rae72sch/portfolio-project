@@ -4,6 +4,13 @@
   --default-font-family: 'Poppins', sans-serif;
   --heading-font-family: 'Playfair Display', serif;
 }
+
+@media (max-width: 767px){
+  .img-logo{
+    max-width: 50px;
+  }
+}
+
 body {
   font-family: var(--default-font-family);
 }
