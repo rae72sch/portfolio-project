@@ -68,8 +68,13 @@ h1.about {
   font-size: 64px;
 }
 
-h3.about {
+h3.about, h3.contact {
   font-size: 32px;
+}
+
+h3.contact {
+  font-family: var(--default-font-family);
+  font-weight: 400;
 }
 
 h4.about {
@@ -135,3 +140,10 @@ p.about {
 .work-contact-btn {
   margin-right: 120px;
 }
+
+.contact-box {
+  width: auto;
+  background: #F9F7FE; 
+  border-radius: 20px;
+}
+
