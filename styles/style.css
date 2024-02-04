@@ -100,7 +100,7 @@ p.about {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 286px 20px;
+  padding: 150px 20px;
 }
 
 .contact-button {
@@ -113,7 +113,7 @@ p.about {
 }
 
 .container {
-  margin: 100px auto;
+  margin: 80px auto;
 }
 
 .header {
@@ -145,5 +145,16 @@ p.about {
   width: auto;
   background: #F9F7FE; 
   border-radius: 20px;
+}
+
+.logo {
+  font-family:'Rochester', cursive;
+  color: var(--brand-color);
+  font-size: 48px;
+}
+
+.active {
+  color: var(--brand-color) !important;
+  font-weight: 500;
 }
 
