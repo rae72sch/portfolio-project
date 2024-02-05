@@ -188,6 +188,10 @@ footer .social-links a:hover {
   font-weight: 500;
 }
 
+.github-link {
+  color: var(--brand-color);
+  text-decoration: none;
+}
 
 
 
