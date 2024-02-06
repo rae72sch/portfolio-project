@@ -6,7 +6,7 @@
 }
 
 @media (max-width: 767px){
-  .img-logo{
+  .img-logo {
     max-width: 50px;
   }
 }
@@ -19,6 +19,12 @@ h1 {
   font-family: 'Rochester', cursive;
   font-size: 96px;
   margin-bottom: 27px;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 76px;
+  }
 }
 
 h2, h3, h4 {
@@ -131,6 +137,12 @@ footer .social-links a:hover {
   text-align: center;
   background-color: var(--secondary-color);
   padding: 150px 20px;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding-top: 75px;
+  }
 }
 
 .contact-button {
