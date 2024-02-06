@@ -172,6 +172,7 @@ footer .social-links a:hover {
 }
 
 .contact-box {
+  margin: 0 auto;
   width: auto;
   background: #F9F7FE; 
   border-radius: 20px;
@@ -191,6 +192,15 @@ footer .social-links a:hover {
 .github-link {
   color: var(--brand-color);
   text-decoration: none;
+}
+
+.website-button {
+  background: var(--brand-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 20px;
 }
 
 
