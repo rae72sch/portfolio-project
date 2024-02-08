@@ -215,5 +215,7 @@ footer .social-links a:hover {
   padding: 10px 20px;
 }
 
-
+.card img {
+  max-width: 70%;
+}
 
