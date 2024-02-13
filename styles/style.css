@@ -1,14 +1,8 @@
 :root {
-  --brand-color: #6c63ff;
-  --secondary-color: #f9f7fe;
-  --default-font-family: 'Poppins', sans-serif;
-  --heading-font-family: 'Playfair Display', serif;
-}
-
-@media (max-width: 767px){
-  .img-logo {
-    max-width: 50px;
-  }
+  --brand-color: #6b00c3;
+  --secondary-color: #f5eaff;
+  --default-font-family: "Poppins", sans-serif;
+  --heading-font-family: "Playfair Display", serif;
 }
 
 body {
@@ -16,18 +10,14 @@ body {
 }
 
 h1 {
-  font-family: 'Rochester', cursive;
+  font-family: "Rochester", cursive;
   font-size: 96px;
   margin-bottom: 27px;
 }
 
-@media (max-width: 767px) {
-  h1 {
-    font-size: 76px;
-  }
-}
-
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   font-family: var(--heading-font-family);
 }
 
@@ -56,10 +46,10 @@ h4.portfolio {
 h5 {
   font-family: var(--default-font-family);
   font-weight: medium;
-  font-size: 20px;
+  font-size: 12px;
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 180px;
+  margin-bottom: 50px;
 }
 
 h6 {
@@ -75,7 +65,8 @@ h1.about {
   font-size: 64px;
 }
 
-h3.about, h3.contact {
+h3.about,
+h3.contact {
   font-size: 32px;
 }
 
@@ -137,12 +128,8 @@ footer .social-links a:hover {
   text-align: center;
   background-color: var(--secondary-color);
   padding: 150px 20px;
-}
-
-@media (max-width: 767px) {
-  .hero {
-    padding-top: 75px;
-  }
+  margin: 0 80px;
+  border-radius: 10px;
 }
 
 .contact-button {
@@ -165,17 +152,18 @@ footer .social-links a:hover {
 }
 
 .gallery-image {
-  padding: 0 100px;
+  padding: 0 60px;
 }
 
-.logo, .skill {
+.logo,
+.skill {
   display: block;
   margin: 0 auto;
 }
 
 .inquiry {
   width: auto;
-  background: #F9F7FE; 
+  background: var(--secondary-color);
   border-radius: 20px;
 }
 
@@ -186,12 +174,12 @@ footer .social-links a:hover {
 .contact-box {
   margin: 0 auto;
   width: auto;
-  background: #F9F7FE; 
+  background: var(--secondary-color);
   border-radius: 20px;
 }
 
 .logo {
-  font-family:'Rochester', cursive;
+  font-family: "Rochester", cursive;
   color: var(--brand-color);
   font-size: 48px;
 }
@@ -219,3 +207,86 @@ footer .social-links a:hover {
   max-width: 70%;
 }
 
+.contact-logo {
+  text-align: center;
+}
+
+.custom-icon {
+  max-width: none;
+}
+
+.fa-contact {
+  color: var(--brand-color);
+  font-size: 50px;
+}
+
+@media (max-width: 330px) {
+  .hero {
+    margin: 0 10px;
+  }
+}
+
+@media (min-width: 390px) {
+  h5 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  h6 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 32px;
+  }
+  h3.contact {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 600px) {
+  h2,
+  h3 {
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 331px) and (max-width: 767px) {
+  .hero {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .img-logo {
+    max-width: 50px;
+  }
+
+  .hero {
+    padding-top: 75px;
+  }
+
+  h1 {
+    font-size: 76px;
+  }
+
+  .work-contact-btn {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .work-contact-btn {
+    margin-right: 0px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .gallery-image {
+    padding: 0 60px;
+  }
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I love Cooking</title>
+    <style>
+      body {
+        background-color: rgba(30, 104, 10, 0.8);
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        line-height: 20px;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        border: 2px solid #1e680a;
+        border-radius: 10px;
+        padding: 5px 10px;
+        font-size: 16px;
+      }
+
+      button:hover {
+        background-color: #1e680a;
+        color: white;
+        cursor: pointer;
+      }
+
+      footer {
+        text-align: center;
+        color: lightgray;
+        font-size: 18px;
+      }
+
+      .theme-button {
+        color: white;
+        background-color: black;
+      }
+
+      .theme-button:hover {
+        color: black;
+        background-color: white;
+        cursor: pointer;
+      }
+
+      .container {
+        max-width: 600px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 20px;
+      }
+
+      .cooking-main-image {
+        border-radius: 15px;
+        transition: all 200ms ease-in-out;
+      }
+
+      .cooking-main-image:hover {
+        filter: contrast(80%);
+        transform: scale(1.1);
+      }
+
+      .grid {
+        margin: 20px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+      }
+
+      .grid img {
+        width: 100%;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+      }
+
+      .grid img:hover {
+        transform: scale(2);
+      }
+
+      .dark-theme {
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/932/original/background.png?1698244548");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: lightgray;
+      }
+
+      .dark-theme .container {
+        background-color: #1e391e;
+      }
+
+      .dark-theme a {
+        color: #1e680a;
+      }
+    </style>
+  </head>
+  <body class="">
+    <button class="theme-button">Dark / Light Theme</button>
+    <div class="container">
+      <h1>Cooking</h1>
+      <h2>A delicious hobby!</h2>
+      <a href="https://en.wikipedia.org/wiki/Cooking" target="_blank">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/887/original/cooking-main.png?1698228849"
+          alt="a chicken stir fry in a wok"
+          class="cooking-main-image"
+        />
+      </a>
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/891/original/todd-quackenbush-x5SRhkFajrA-unsplash.jpg?1698229403"
+          alt="cooking ingredients laid out on a table"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/888/original/annie-spratt-UyEmagArOLY-unsplash.jpg?1698229312"
+          alt="children cooking"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/894/original/chopping.png?1698230731"
+          alt="chopped ingredients on a board and bowls of prepared ingredients"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/889/original/jason-briscoe-n4ymhyyFY7A-unsplash.jpg?1698229383"
+          alt="a couple cooking together"
+        />
+      </div>
+      <p>
+        Cooking is a wonderful hobby to have. You can choose to make healthy
+        meals to improve the wellbeing of yourself and your family. It can be a
+        fun thing to do with a partner, a friend or your children, or you can
+        share the end results with them. It's wonderful to share a meal with
+        those you love. There are so many recipes available online and in books,
+        you'll never run out of inspiration. As cooking is also creative, you
+        can have fun trying and adapting recipes, and when you are confident
+        enough, inventing your own. And eating is, of course, one of the
+        greatest pleasures in life.
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Cooking" target="_blank"
+        >Learn more on Wikipedia</a
+      >
+      <button>Learn to Cook</button>
+    </div>
+    <footer>Coded by Rachel Schofield</footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        body.classList.toggle("dark-theme");
+      }
+
+      let button = document.querySelector(".theme-button");
+      button.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
