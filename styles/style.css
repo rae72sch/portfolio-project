@@ -155,10 +155,35 @@ footer .social-links a:hover {
   padding: 0 60px;
 }
 
+.skills-container {
+  width: 82%;
+}
+
 .logo,
 .skill {
   display: block;
   margin: 0 auto;
+}
+
+.bootstrap-logo {
+  width: 45px;
+}
+
+.javascript-logo {
+  width: 60px;
+}
+
+.react-logo {
+  width: 40px;
+}
+
+.github-logo {
+  width: 45px;
+}
+
+.card-text {
+  font-size: 12px;
+  margin-top: 0;
 }
 
 .inquiry {
