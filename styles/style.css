@@ -102,7 +102,7 @@ footer {
 footer .email-link {
   text-decoration: none;
   color: #000;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 footer .email-link:hover {
@@ -155,10 +155,6 @@ footer .social-links a:hover {
   padding: 0 60px;
 }
 
-.skills-container {
-  width: 82%;
-}
-
 .logo,
 .skill {
   display: block;
@@ -187,9 +183,14 @@ footer .social-links a:hover {
 }
 
 .inquiry {
-  width: auto;
+  max-width: 70%;
   background: var(--secondary-color);
   border-radius: 20px;
+  margin: 0 auto;
+}
+
+.contact-text {
+  font-size: 12px;
 }
 
 .work-contact-btn {
@@ -198,7 +199,7 @@ footer .social-links a:hover {
 
 .contact-box {
   margin: 0 auto;
-  width: auto;
+  width: 60%;
   background: var(--secondary-color);
   border-radius: 20px;
 }
@@ -207,6 +208,10 @@ footer .social-links a:hover {
   font-family: "Rochester", cursive;
   color: var(--brand-color);
   font-size: 48px;
+}
+
+.profile-pic {
+  max-width: 350px;
 }
 
 .active {
@@ -243,6 +248,10 @@ footer .social-links a:hover {
 .fa-contact {
   color: var(--brand-color);
   font-size: 50px;
+}
+
+.footer {
+  font-size: 12px;
 }
 
 @media (max-width: 330px) {
